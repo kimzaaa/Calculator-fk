@@ -37,7 +37,7 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon='C:\\Users\\kim\\Desktop\\coding\\calculator app\\CALCULATOR.png',
+    icon='C:\\Users\\kim\\Desktop\\coding\\calculator-app\\CALCULATOR.png',
 )
 coll = COLLECT(
     exe,
