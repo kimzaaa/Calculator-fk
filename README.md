@@ -8,4 +8,4 @@ this calculator was made for the KRIXT os
 2. extract the file
 3. go to dist --> calc --> calc.exe
 
-you are ready to go!
+you are ready to go!!
