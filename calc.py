@@ -13,7 +13,7 @@ class Mainwin(qtw.QWidget): #creating class will inherit from qwidget and it wil
         self.fin_nums = []
         #btn1 = qtw.QPushButton('test') #creates a button
         #self.layout().addWidget(btn1) #makes the widget shown in the window
-        self.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator app/images/bg.png);") #set background coloe
+        self.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator-app/images/bg.png);") #set background coloe
         self.setGeometry(0, 0, 300, 600) #set screen dimentions
         
         self.show() #obj will create after the main window class
@@ -62,23 +62,23 @@ class Mainwin(qtw.QWidget): #creating class will inherit from qwidget and it wil
         btn_clear.setFixedSize(205,100)
         
         #setting the button pictures
-        btn_9.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator app/images/9.png);")
-        btn_8.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator app/images/8.png);")
-        btn_7.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator app/images/7.png);")
-        btn_6.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator app/images/6.png);")
-        btn_5.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator app/images/5.png);")
-        btn_4.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator app/images/4.png);")
-        btn_3.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator app/images/3.png);")
-        btn_2.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator app/images/2.png);")
-        btn_1.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator app/images/1.png);")
-        btn_0.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator app/images/0.png);")
-        btn_plus.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator app/images/plus.png);") 
-        btn_mins.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator app/images/mins.png);") 
-        btn_mult.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator app/images/mult.png);") 
-        btn_divd.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator app/images/didv.png);") 
-        btn_result.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator app/images/Enter.png);") 
-        btn_clear.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator app/images/clear.png);") 
-        #rf.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator app/images/inp.png);")
+        btn_9.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator-app/images/9.png);")
+        btn_8.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator-app/images/8.png);")
+        btn_7.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator-app/images/7.png);")
+        btn_6.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator-app/images/6.png);")
+        btn_5.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator-app/images/5.png);")
+        btn_4.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator-app/images/4.png);")
+        btn_3.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator-app/images/3.png);")
+        btn_2.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator-app/images/2.png);")
+        btn_1.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator-app/images/1.png);")
+        btn_0.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator-app/images/0.png);")
+        btn_plus.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator-app/images/plus.png);") 
+        btn_mins.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator-app/images/mins.png);") 
+        btn_mult.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator-app/images/mult.png);") 
+        btn_divd.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator-app/images/didv.png);") 
+        btn_result.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator-app/images/Enter.png);") 
+        btn_clear.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator-app/images/clear.png);") 
+        #rf.setStyleSheet("background-image : url(C:/Users/kim/Desktop/coding/calculator-app/images/inp.png);")
         
 
         #adding buttons to the layout
